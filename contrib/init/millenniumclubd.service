@@ -1,0 +1,22 @@
+[Unit]
+Description=MillenniumClub's distributed currency daemon
+After=network.target
+
+[Service]
+User=millenniumclubcore
+Group=millenniumclubcore
+
+Type=forking
+PIDFile=/var/lib/millenniumclubd/millenniumclubd.pid
+ExecStart=/usr/bin/millenniumclubd -daemon -pid=/var/lib/millenniumclubd/millenniumclubd.pid \
+-conf=/etc/millenniumclubcore/millenniumclub.conf -datadir=/var/lib/millenniumclubd -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

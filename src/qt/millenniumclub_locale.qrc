@@ -1,0 +1,21 @@
+<!DOCTYPE RCC><RCC version="1.0">
+    <qresource prefix="/translations">
+        <file alias="bg">locale/millenniumclub_bg.qm</file>
+        <file alias="de">locale/millenniumclub_de.qm</file>
+        <file alias="en">locale/millenniumclub_en.qm</file>
+        <file alias="es">locale/millenniumclub_es.qm</file>
+        <file alias="fi">locale/millenniumclub_fi.qm</file>
+        <file alias="fr">locale/millenniumclub_fr.qm</file>
+        <file alias="it">locale/millenniumclub_it.qm</file>
+        <file alias="ja">locale/millenniumclub_ja.qm</file>
+        <file alias="nl">locale/millenniumclub_nl.qm</file>
+        <file alias="pl">locale/millenniumclub_pl.qm</file>
+        <file alias="pt">locale/millenniumclub_pt.qm</file>
+        <file alias="ru">locale/millenniumclub_ru.qm</file>
+        <file alias="sk">locale/millenniumclub_sk.qm</file>
+        <file alias="sv">locale/millenniumclub_sv.qm</file>
+        <file alias="vi">locale/millenniumclub_vi.qm</file>
+        <file alias="zh_CN">locale/millenniumclub_zh_CN.qm</file>
+        <file alias="zh_TW">locale/millenniumclub_zh_TW.qm</file>
+    </qresource>
+</RCC>

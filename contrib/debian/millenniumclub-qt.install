@@ -1,0 +1,6 @@
+usr/local/bin/millenniumclub-qt usr/bin
+share/pixmaps/millenniumclub32.xpm usr/share/pixmaps
+share/pixmaps/millenniumclub16.xpm usr/share/pixmaps
+share/pixmaps/millenniumclub128.png usr/share/pixmaps
+debian/millenniumclub-qt.desktop usr/share/applications
+debian/millenniumclub-qt.protocol usr/share/kde4/services/

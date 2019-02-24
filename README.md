@@ -1,4 +1,4 @@
-MillenniumClub Core staging tree 0.12.3.4
+MillenniumClub Core staging tree 0.12.3.7
 ===============================
 
 `master:` [![Build Status](https://travis-ci.org/millenniumclubpay/millenniumclub.svg?branch=master)](https://travis-ci.org/millenniumclubpay/millenniumclub) `develop:` [![Build Status](https://travis-ci.org/millenniumclubpay/millenniumclub.svg?branch=develop)](https://travis-ci.org/millenniumclubpay/millenniumclub/branches)

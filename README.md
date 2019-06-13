@@ -1,10 +1,14 @@
-MillenniumClub Core staging tree 0.12.3.7
+MillenniumClub Core staging tree 0.12.3.8
 ===============================
 
 `master:` [![Build Status](https://travis-ci.org/millenniumclubpay/millenniumclub.svg?branch=master)](https://travis-ci.org/millenniumclubpay/millenniumclub) `develop:` [![Build Status](https://travis-ci.org/millenniumclubpay/millenniumclub.svg?branch=develop)](https://travis-ci.org/millenniumclubpay/millenniumclub/branches)
 
 https://www.millenniumclub.ca
 
+New in this version
+----------------
+
+Source code updated for planned Fork at block: 495,217 where all running masternoedes are de-activated and new Collateral requirements go into effect. You do NOT need to re-index any files for the fork. Insure all of your wallets are updated (linux & windows) before block 495,217 .
 
 What is MillenniumClub?
 ----------------

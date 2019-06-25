@@ -8,7 +8,7 @@ https://www.millenniumclub.ca
 New in this version
 ----------------
 
-Source code updated for planned Fork at block: 200,000 where all running masternoedes are de-activated and new Collateral requirements go into effect. You do NOT need to re-index any files for the fork. Insure all of your wallets are updated (linux & windows) before block 200,000.
+Source code updated for planned Fork at block: 210,000 where all running masternoedes are de-activated and new Collateral requirements go into effect. You do NOT need to re-index any files for the fork. Insure all of your wallets are updated (linux & windows) before block 210,000.
 
 What is MillenniumClub?
 ----------------

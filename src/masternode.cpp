@@ -116,8 +116,8 @@ CMasternode::CollateralStatus CMasternode::CheckCollateral(const COutPoint& outp
     if(!GetUTXOCoin(outpoint, coin)) {
         return COLLATERAL_UTXO_NOT_FOUND;
     }
-// Collat change to 50000 at block 200000 - Start
-if(chainActive.Height() < 200000){
+// Collat change to 50000 at block 210000 - Start
+if(chainActive.Height() < 210000){
     if(coin.out.nValue != 10000 * COIN) {
         return COLLATERAL_INVALID_AMOUNT;
     }
@@ -126,7 +126,7 @@ if(chainActive.Height() < 200000){
         return COLLATERAL_INVALID_AMOUNT;
     }
 }
-// Collat change to 50000 at block 200000 - End
+// Collat change to 50000 at block 210000 - End
     
     if(pubkey == CPubKey() || coin.out.scriptPubKey != GetScriptForDestination(pubkey.GetID())) {
         return COLLATERAL_INVALID_PUBKEY;

@@ -2624,7 +2624,7 @@ void CWallet::AvailableCoins(std::vector<COutput>& vCoins, bool fOnlyConfirmed, 
                 if(!found) continue;
 
                 isminetype mine = IsMine(pcoin->tx->vout[i]);
-if(chainActive.Height() < 200000){
+if(chainActive.Height() < 210000){
                 if (!(IsSpent(wtxid, i)) && mine != ISMINE_NO &&
                     (!IsLockedCoin((*it).first, i) || nCoinType == ONLY_10000) &&
                     (pcoin->tx->vout[i].nValue > 0 || fIncludeZeroValue) &&
@@ -3121,7 +3121,7 @@ bool CWallet::SelectCoinsGrouppedByAddresses(std::vector<CompactTallyItem>& vecT
             if(fAnonymizable) {
                 // ignore collaterals
                 if(CPrivateSend::IsCollateralAmount(wtx.tx->vout[i].nValue)) continue;
-if(chainActive.Height() < 200000){
+if(chainActive.Height() < 210000){
                 if(fMasternodeMode && wtx.tx->vout[i].nValue == 10000*COIN) continue;
 } else {
                 if(fMasternodeMode && wtx.tx->vout[i].nValue == 50000*COIN) continue;
@@ -3191,7 +3191,7 @@ bool CWallet::SelectCoinsDark(CAmount nValueMin, CAmount nValueMax, std::vector<
         if(out.tx->tx->vout[out.i].nValue < nValueMin/10) continue;
         //do not allow collaterals to be selected
         if(CPrivateSend::IsCollateralAmount(out.tx->tx->vout[out.i].nValue)) continue;
-if(chainActive.Height() < 200000){
+if(chainActive.Height() < 210000){
         if(fMasternodeMode && out.tx->tx->vout[out.i].nValue == 10000*COIN) continue; //masternode input
 } else {
         if(fMasternodeMode && out.tx->tx->vout[out.i].nValue == 50000*COIN) continue; //masternode input
@@ -3240,7 +3240,7 @@ bool CWallet::GetMasternodeOutpointAndKeys(COutPoint& outpointRet, CPubKey& pubK
     // Find possible candidates
     std::vector<COutput> vPossibleCoins;
 
-if(chainActive.Height() < 200000){
+if(chainActive.Height() < 210000){
     AvailableCoins(vPossibleCoins, true, NULL, false, ONLY_10000);
 } else {
     AvailableCoins(vPossibleCoins, true, NULL, false, ONLY_50000);

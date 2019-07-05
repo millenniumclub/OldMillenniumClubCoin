@@ -561,8 +561,8 @@ bool CMasternodeBroadcast::CheckOutpoint(int& nDos)
         return false;
     }
     
-// Collat change to 50000 at block 200000 - Start
-if(chainActive.Height() < 200000){
+// Collat change to 50000 at block 210000 - Start
+if(chainActive.Height() < 210000){
     if (err == COLLATERAL_INVALID_AMOUNT) {
         LogPrint("masternode", "CMasternodeBroadcast::CheckOutpoint -- Masternode UTXO should have 10000 MILL, masternode=%s\n", outpoint.ToStringShort());
         nDos = 33;
@@ -575,7 +575,7 @@ if(chainActive.Height() < 200000){
         return false;
     }
 }
-// Collat change to 50000 at block 200000 - End
+// Collat change to 50000 at block 210000 - End
 
     if(err == COLLATERAL_INVALID_PUBKEY) {
         LogPrint("masternode", "CMasternodeBroadcast::CheckOutpoint -- Masternode UTXO should match pubKeyCollateralAddress, masternode=%s\n", outpoint.ToStringShort());

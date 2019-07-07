@@ -1,4 +1,4 @@
-MillenniumClub Core v0.12.3.8
+MillenniumClub Core v0.12.3.9
 ===============================
 
 `master:` [![Build Status](https://travis-ci.org/millenniumclubpay/millenniumclub.svg?branch=master)](https://travis-ci.org/millenniumclubpay/millenniumclub) `develop:` [![Build Status](https://travis-ci.org/millenniumclubpay/millenniumclub.svg?branch=develop)](https://travis-ci.org/millenniumclubpay/millenniumclub/branches)

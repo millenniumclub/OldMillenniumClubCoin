@@ -1,4 +1,4 @@
-MillenniumClub Core v0.12.3.10
+MillenniumClub Core v0.12.3.11
 ===============================
 
 `master:` [![Build Status](https://travis-ci.org/millenniumclubpay/millenniumclub.svg?branch=master)](https://travis-ci.org/millenniumclubpay/millenniumclub) `develop:` [![Build Status](https://travis-ci.org/millenniumclubpay/millenniumclub.svg?branch=develop)](https://travis-ci.org/millenniumclubpay/millenniumclub/branches)
@@ -8,7 +8,7 @@ https://www.millenniumclub.ca
 New in this version
 ----------------
 
-Source code updated for planned Fork at block: 210,000 where all running masternoedes are de-activated and new Collateral requirements go into effect. You do NOT need to re-index any files for the fork. Insure all of your wallets are updated (linux & windows) before block 210,000. Minor bugs fixes.
+Minor bugs fix to solve a mining exploit.
 
 What is MillenniumClub?
 ----------------
